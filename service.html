@@ -56,20 +56,24 @@
             <a class="nav-link" href="video.html">VIDEOS</a>
         </li> 
         <li class="nav-item">
-            <a class="nav-link" href="about.html">ACERCA DE</a>
+            <a class="nav-link" href="about.html">INFO</a>
         </li>  
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACTO</a>
-        </li>       
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="products.html" id="themesDd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CONTACTO
+            </a>
+            <div class="dropdown-menu sub-menu" aria-labelledby="themesDd">
+				<a class="dropdown-item px-2" href="https://wa.me/525548360993?text=Hola%20me%20comunico%20desde%20su%20p&aacute;gina%20web%20y%20estoy%20interesado%20en" target="_blank">
+				  Whatsapp<i class="fab fa-whatsapp nav-item ico-media"></i></a>
+				<a class="dropdown-item px-2" href="https://web.facebook.com/pg/lauderiajccd/" target="_blank">
+				  Facebook<i class="fab fa-facebook-f ico-media"></i></a>
+				<a class="dropdown-item px-2" href="https://www.youtube.com/channel/UCZpmsF_jrh5amcXyBV2wXFg" target="_blank">
+				  Youtube<i class="fab fa-youtube nav-item ico-media"></i></a>
+				<a class="dropdown-item px-2" href="tel:525548360993" target="_blank">
+				  Teléfono<i class="fas fa-mobile-alt nav-item  ico-media"></i></a>  
+            </div>
+        </li>		
       </ul>
-        <a href="https://wa.me/525548360993?text=Hola%20me%20comunico%20desde%20su%20p&aacute;gina%20web%20y%20estoy%20interesado%20en" target="_blank">
-          <i class="fab fa-whatsapp nav-item ico-media"></i></a>
-        <a href="https://web.facebook.com/pg/lauderiajccd/" target="_blank">
-          <i class="fab fa-facebook-f ico-media"></i></a>
-        <a href="https://www.youtube.com/channel/UCZpmsF_jrh5amcXyBV2wXFg" target="_blank">
-          <i class="fab fa-youtube nav-item ico-media"></i></a>
-        <a href="tel:525548360993" target="_blank">
-          <i class="fas fa-mobile-alt nav-item  ico-media"></i></a>  
     </div>
   </div> 
 </nav>
@@ -107,7 +111,7 @@
         
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Reparaciones">
+          <img class="card-img-top" src="img/service1.jpg" alt="Reparaciones">
           <div class="card-body">
             <h4 class="card-title">
               Reparaciones
@@ -118,7 +122,7 @@
       </div>        
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Reparaciones simples">
+          <img class="card-img-top" src="img/service2.jpg" alt="Reparaciones simples">
           <div class="card-body">
             <h4 class="card-title">
               Mantenimiento y limpieza
@@ -129,7 +133,7 @@
       </div>
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Cambio de pintura">
+          <img class="card-img-top" src="img/service3.jpg" alt="Cambio de pintura">
           <div class="card-body">
             <h4 class="card-title">
               Cambio de pintura
@@ -140,7 +144,7 @@
       </div>
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Actualización de circuito y mecánicas">
+          <img class="card-img-top" src="img/service4.jpg" alt="Actualización de circuito y mecánicas">
           <div class="card-body">
             <h4 class="card-title">
               Actualización de circuito y mecánicas
@@ -151,18 +155,18 @@
       </div>
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Perzonalización">
+          <img class="card-img-top" src="img/service5.jpg" alt="Perzonalización">
           <div class="card-body">
             <h4 class="card-title">
               Perzonalización
             </h4>
-            <p class="card-text">qPersonalizamos tu instrumento de batalla para que hable por tí y refleje el gran artista que eres.</p>
+            <p class="card-text">Personalizamos tu instrumento de batalla para que hable por tí y refleje el gran artista que eres.</p>
           </div>
         </div>
       </div>
       <div class="col-lg-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/700x400.jpg" alt="Restauración">
+          <img class="card-img-top" src="img/service6.jpg" alt="Restauración">
           <div class="card-body">
             <h4 class="card-title">
               Restauración
@@ -173,9 +177,14 @@
       </div>
         
     </div>
+	
+	<div class="text-center">
+		<h1>¿Necesitas un servicio?</h1>
+		<p><a type="button" href="https://wa.me/525548360993?text=Hola%20me%20comunico%20desde%20su%20p&aacute;gina%20web%20y%20estoy%20interesado%20en%20servicio%20de%20" target="_blank" class="btn btn-success">Contáctanos aquí</a></p> 	
+	</div>
+
   </div>
 </section>
-
 
   <!-- Contact Section -->
   <section class="contact-section bg-black">
@@ -241,10 +250,12 @@
     </div>
   </section>
 
+
+
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; JCCD 2020
+      Copyright &copy; JCCD <script>document.write(new Date().getFullYear());</script> | All rights reserved
     </div>
   </footer>
 

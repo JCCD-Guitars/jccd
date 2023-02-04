@@ -6,6 +6,10 @@ input[type=text], input[type=email], textarea[id=message] {
   box-sizing: border-box;
 }
 
+.margen{
+  margin-top: 350px;
+}
+
 .bg-guitar{
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/x.png") repeat, url("../img/bg-guitar.jpg") no-repeat center ;  
   background-attachment: scroll;

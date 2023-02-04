@@ -27,7 +27,7 @@ if($_POST) {
     if(mail($recipient, $email_title, $visitor_message, $headers)) {
         echo "<p>Gracias por tu mensaje, $visitor_name.</p>";
     } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
+        echo '<p>Hubo un error, uelve a intentar más tarde.</p>';
     }
      
 } else {
